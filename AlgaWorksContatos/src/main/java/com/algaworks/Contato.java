@@ -19,6 +19,10 @@ public class Contato {
 		this.dataNascimento = dataNascimento;
 	}
 	
+	public boolean isNovo() {
+		return id == null;
+	}
+	
 	public String getId() {
 		return id;
 	}
